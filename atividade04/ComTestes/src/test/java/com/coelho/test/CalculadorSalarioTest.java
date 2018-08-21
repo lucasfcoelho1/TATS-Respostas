@@ -48,4 +48,9 @@ public class CalculadorSalarioTest {
     public void testTestadorMenorDoisMil(){
         assertEquals(1530, c.calcular("TESTADOR", 1800.0), 0.001);
     }
+    
+    @Test
+    public void testTestadorMaiorrDoisMil(){
+        assertEquals(1875, c.calcular("TESTADOR", 2500.0), 0.001);
+    }
 }
