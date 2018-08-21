@@ -5,6 +5,8 @@
  */
 package com.coelho.code;
 
+import sun.nio.cs.IBM775;
+
 /**
  *
  * @author lucas.fernandes
@@ -21,6 +23,8 @@ public class CalculadoraSalario {
         else if (cargo.equals("DBA")){
             if (salario < 2000)
                 return salario * .85;
+            else
+                return salario * .75;
         }
             
         return 0;
