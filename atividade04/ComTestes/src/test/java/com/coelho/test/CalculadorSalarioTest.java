@@ -29,4 +29,6 @@ public class CalculadorSalarioTest {
 
         assertEquals(2000.0, c.calcular("DESENVOLVEDOR", 2500.0), 0.001);
     }
+    
+    //@Test
 }

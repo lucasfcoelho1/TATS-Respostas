@@ -12,8 +12,11 @@ package com.coelho.code;
 public class CalculadoraSalario {
 
     public double calcular(String cargo, double salario) {
-        if (cargo.equals("DESENVOLVEDOR"))
-            return salario * .8;
+        if (cargo.equals("DESENVOLVEDOR")){
+            if (salario < 3000)
+                return salario * .8;
+        }
+            
         return 0;
     }
     
