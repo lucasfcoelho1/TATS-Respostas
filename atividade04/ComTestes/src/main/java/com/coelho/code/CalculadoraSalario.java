@@ -26,6 +26,10 @@ public class CalculadoraSalario {
             else
                 return salario * .75;
         }
+        else if (cargo.equals("TESTADOR")){
+            if (salario < 2000)
+                return salario * .85;
+        }
             
         return 0;
     }
