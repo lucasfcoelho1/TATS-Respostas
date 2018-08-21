@@ -18,6 +18,10 @@ public class CalculadoraSalario {
             else
                 return salario * .8;
         }
+        else if (cargo.equals("DBA")){
+            if (salario < 2000)
+                return salario * .85;
+        }
             
         return 0;
     }
