@@ -27,8 +27,8 @@ public class CalculadorSalarioTest {
     @Test
     public void testDesenvolvedorMenorTresMil() {
 
-        assertEquals(2000.0, c.calcular("DESENVOLVEDOR", 2500.0), 0.001);
+        assertEquals(2250.0, c.calcular("DESENVOLVEDOR", 2500.0), 0.001);
     }
     
-    //@Test
+    
 }
