@@ -15,6 +15,8 @@ public class CalculadoraSalario {
         if (cargo.equals("DESENVOLVEDOR")){
             if (salario < 3000)
                 return salario * .9;
+            else
+                return salario * .8;
         }
             
         return 0;
