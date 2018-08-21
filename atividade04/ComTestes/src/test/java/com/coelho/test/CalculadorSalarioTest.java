@@ -38,4 +38,9 @@ public class CalculadorSalarioTest {
     public void testDBAMenorDoisMil(){
         assertEquals(1530, c.calcular("DBA", 1800.0), 0.001);
     }
+    
+    @Test
+    public void testDBAMaiorrDoisMil(){
+        assertEquals(1850, c.calcular("DBA", 2500.0), 0.001);
+    }
 }
